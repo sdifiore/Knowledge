@@ -25,5 +25,7 @@ namespace Knowledge.Models
         public HashSet<Fonte>? Fontes { get; set; }
 
         public HashSet<Framework>? Frameworks { get; set; }
+
+        public HashSet<Plataforma>? Plataformas { get; set; }
     }
 }
