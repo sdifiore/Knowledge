@@ -23,5 +23,7 @@ namespace Knowledge.Models
         public List<Autor>? Autores { get; set; }
 
         public HashSet<Fonte>? Fontes { get; set; }
+
+        public HashSet<Plataforma>? Plataformas { get; set; }
     }
 }
