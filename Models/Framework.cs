@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Knowledge.Models
 {
     [Table("Frameworks")]
-    public class Framework
+    public class Framework : PageModel
     {
         public int Id { get; set; }
 
@@ -19,7 +20,5 @@ namespace Knowledge.Models
         [Required]
         [StringLength(16)]
         public string? Versao { get; set; } = string.Empty;
-
-        public HashSet<Erro>? Erros { get; set; }
     }
 }

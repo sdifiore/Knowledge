@@ -1,8 +1,4 @@
-﻿using Knowledge.Models;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-
-namespace Knowledge.Data
+﻿namespace Knowledge.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

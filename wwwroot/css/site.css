@@ -18,9 +18,13 @@ body {
 }
 
 #mainButtom {
+<<<<<<< HEAD
     height: 200px;
     width: 75%;
     color: #3A87AD;
     font-size: 36px;
+=======
+    color: #3A87AD;
+>>>>>>> 86701c0cbe9b1bf2bacf4ed84cf100a732f97c12
     margin: auto;
 }

@@ -12,6 +12,14 @@ namespace Knowledge.Controllers
             _repository = repository;
         }
 
+<<<<<<< HEAD
+=======
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+>>>>>>> 86701c0cbe9b1bf2bacf4ed84cf100a732f97c12
         public IActionResult NewFrame()
         {
             return View();
